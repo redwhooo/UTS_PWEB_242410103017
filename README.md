@@ -1,6 +1,7 @@
 # UTS_PWEB_242410103017
-Website Book Reviews
+Website Book Reviews.
 Projek Laravel sederhana yang memuat sistem login, dashboard, profil pengguna, dan halaman pengelolaan (yang berisi review buku-buku).
+
 Fitur Utama:
 Login Manual menggunakan username & password.
 Dashboard: Menyambut user setelah login.
