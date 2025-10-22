@@ -1,0 +1,257 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #EBE7E1;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #10214B;
+}
+
+.main-content {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #D0C3BA;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    min-height: 400px;
+}
+
+.navbar {
+    color: white;
+    padding: 15px 0;
+    background-color: #10214B;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-links a:hover {
+    background-color: #D7BD88;
+    color: #10214B;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #D0C3BA;
+    color: #333;
+    font-weight: normal;
+}
+
+.login-box {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #D0C3BA;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.login-box h2, .login-box p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #D0C3BA;
+    border-radius: 8px;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #10214B;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #10214B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #D7BD88;
+    color: #10214B;
+    transform: none;
+}
+
+.dashboard-ctas {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.cta-button {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #D7BD88;
+    color: #10214B;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-button.cta-secondary {
+    background-color: #D0C3BA;
+    color: #10214B;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.cta-button p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 0.9em;
+}
+
+.profile-card {
+    display: flex;
+    gap: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #D0C3BA;
+    border-radius: 8px;
+    align-items: flex-start;
+}
+
+.profile-image-container {
+    flex-shrink: 0;
+}
+
+.profile-info-container {
+    flex-grow: 1;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 4px solid #D7BD88;
+}
+
+.profile-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #10214B;
+}
+
+.profile-bio {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+.profile-fav-book {
+    background-color: #EBE7E1;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #D0C3BA;
+    font-weight: normal;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.data-table th {
+    background-color: #10214B;
+    color: white;
+    padding: 14px 18px;
+    font-size: 1.1rem;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #D0C3BA;
+    padding: 12px 18px;
+    text-align: left;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #EBE7E1;
+}
+
+.data-table tbody tr:hover {
+    transform: none;
+    transition: background-color 0.1s ease-in-out;
+}
